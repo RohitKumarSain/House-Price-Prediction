@@ -5,6 +5,9 @@ import joblib
 # Load trained model
 model = joblib.load('model.joblib')
 
+import sys
+st.write(sys.version)
+
 # App Title
 st.title("🏠 California House Price Prediction")
 
